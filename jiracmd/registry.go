@@ -42,7 +42,7 @@ func RegisterAllCommands() {
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "reopen", Entry: CmdTransitionRegistry("reopen")})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "request", Entry: CmdRequestRegistry(), Aliases: []string{"req"}})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "resolve", Entry: CmdTransitionRegistry("resolve")})
-	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "start", Entry: CmdTransitionRegistry("start")})
+	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "start", Entry: CmdTransitionRegistry("In Progress")})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "stop", Entry: CmdTransitionRegistry("stop")})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "subtask", Entry: CmdSubtaskRegistry()})
 	jiracli.RegisterCommand(jiracli.CommandRegistry{Command: "take", Entry: CmdTakeRegistry()})
