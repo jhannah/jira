@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/go-jira/jira/jiradata"
+	"github.com/jhannah/jira/jiradata"
 	"gopkg.in/AlecAivazis/survey.v1"
 )
 
